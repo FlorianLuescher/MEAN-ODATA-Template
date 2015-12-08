@@ -23,7 +23,7 @@ Run
 Run this command in console:
 
 ```
-nnpm start
+npm start
 ```
 
 Open `http://localhost:3000` to access basic Express Site.
