@@ -1,6 +1,24 @@
 {
-  "name": "NodejsTemplate",
-  "version": "0.0.1",
-  "description": "",
-  "dependencies": {  }
+  "name": "nodejstemplate",
+  "version": "1.0.0",
+  "description": "just another node project",
+  "main": "server.js",
+  "scripts": {
+    "i": "sudo sh ./install.sh",
+    "pretest": "echo \"pretest: nothing specified\"",
+    "test": "echo \"no test specified\"",
+    "posttest": "echo \"posttest: nothing specified\""
+  },
+  "author": "Florian Lüscher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlorianLuescher/NodejsTemplate/issues"
+  },
+  "homepage": "https://github.com/FlorianLuescher/NodejsTemplate#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "nib": "^1.1.0",
+    "stylus": "^0.52.4"
+  }
 }
