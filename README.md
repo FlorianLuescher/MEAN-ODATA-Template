@@ -33,6 +33,6 @@ Extend Code
 
 Run this command for installing new node_modules: `npm run i -- <node_module>` 
 
-Don't forget to check the message in the console, maybe there is no definition file for the given node_module.. You can find the available typescript definitions here: https://github.com/DefinitelyTyped/tsd
+Don't forget to check the message in the console, maybe there is no definition file for the given node_module.. You can find the available typescript definitions here: https://github.com/DefinitelyTyped
 
 Have fun ;)
