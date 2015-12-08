@@ -1,7 +1,7 @@
 Nodejs Template
 ===============
 
-Source code example for [A simple website in node.js written in Typescript with express, jade and stylus, ] part copied of (http://www.clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus) article.
+Source code example for [A simple website in node.js written in Typescript with express, jade and stylus] base copied from (http://www.clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus) article.
 
 Build
 -----
@@ -15,7 +15,7 @@ tsd install
 
 All dependencies will be downloaded by `npm` to `node_modules` folder.
 
-All typescript definitions will be downloaded by `tst` to `typings` folder.
+All typescript definitions will be downloaded by `tsd` to `typings` folder.
 
 Run
 ---
@@ -32,5 +32,7 @@ Extend Code
 -----------
 
 Run this command for installing new node_modules: `npm run i -- <node_module>` 
+
+Don't forget to check the message in the console, maybe there is no definition file for the given node_module.. You can find the available typescript definitions here: https://github.com/DefinitelyTyped/tsd
 
 Have fun ;)
