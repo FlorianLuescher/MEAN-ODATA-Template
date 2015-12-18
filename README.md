@@ -1,5 +1,5 @@
-Nodejs Template
-===============
+MEAN-ODATA-Template
+===================
 
 A MEAN on oData Template.
 
