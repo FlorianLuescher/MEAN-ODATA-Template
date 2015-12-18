@@ -12,4 +12,20 @@ html
       .sidebar
         block sidebar
     footer
-      p Running on node with Express, Jade and Stylus
+      p Running on node, written in TypeScript, with Express, Jade, Stylus and Angular
+      
+    script(src='components/angular/angular.min.js')
+    script(src='components/angular-bootstrap/ui-bootstrap.min.js')
+    script(src='components/socket.io-client/socket.io.js')
+      
+    script(type='text/javascript').
+      var chat = io.connect('http://localhost:3000/chat')
+        , news = io.connect('http://localhost:3000/news');
+
+      chat.on('connect', function () {
+        chat.emit('hi!');
+      });
+
+      news.on('news', function () {
+        news.emit('woot');
+      });

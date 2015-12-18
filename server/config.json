@@ -1,0 +1,9 @@
+{
+  "app": {
+      "dev": {
+        "port": "3000",
+        "mongodb": "mongodb://localhost:27017/nodejstemplate"
+      },
+      "secret": "s3Cr*t"
+  }
+}
